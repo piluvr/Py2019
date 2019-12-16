@@ -14,7 +14,7 @@ def hexcon(num):
 def bincon(n): 
     return bin(n).replace("0b","") 
 def main():	
-	ASCIIKEY=' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
+	ASCIIKEY=' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz|~'
 	io=int(input("input a number lower than 255: "))
 	Newkey=""
 	if(io>=32  and io <127):

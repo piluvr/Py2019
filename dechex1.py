@@ -9,7 +9,8 @@ def hexcon(num):
 	else:
 		HexString+=str(Key[num % 16])
 		num = num % 16
-	print(HexString)		
+	print(HexString)	
+	
 def main():	
 	io=int(input("input a number lower than 255: "))
 	hexcon(io)
